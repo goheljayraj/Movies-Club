@@ -3,6 +3,7 @@ import Navbar from "../../components/Navbar/Navbar";
 import Tiles from "../../components/Tiles/Tiles";
 
 const Home = (props) => {
+    props.setType("m");
     return (
         <div>
 
